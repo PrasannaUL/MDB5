@@ -1,0 +1,31 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+    <style>
+        h2{
+            display: block;
+            width: 500px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+       <h1 class="btn  btn-danger mt-4">MDB5 Components</h1><br>
+       <div class="navbar"></div>
+       <img src="{% static 'images/msd.jpg' %}" height="250px" width="250px" class="mb-3"/> 
+       <h2 class="btn btn-warning text-primary ">Dhoni holds an honorary rank of Lieutenant Colonel in the Parachute
+         Regiment of the Indian Territorial Army, it was presented to him by the Indian Army 
+         in 2011 for his service to the nation as a sportsperson.He is considered one of the most 
+         popular cricketers in the world.</h2>
+    </center>
+
+<script src="{% static 'js/mdb.es.min.js' %}"></script>
+</body>
+</html>
